@@ -5,6 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Grid</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
   <link rel="stylesheet" href="../Css/index1.css">
   <script  src="https://kit.fontawesome.com/7e5b2d153f.js" crossorigin="anonymous"></script>
 
@@ -15,17 +19,21 @@
   <header class="header">
     <div class="header_cont">
         <nav class="navbar">
-            <a href="#" class="logo">Las Moras</a>
+          <div class="animate__animated animate__backInLeft"><a href="#" class="logo">Las Moras</a></div>
+            
            
             <button class="nav-toggle" aria-label="Abrir menú">
                 <i class="fas fa-bars"></i>
               </button>
-            <ul class="nav-menu">
-                <li class="nav-menu-item"><a href="../index.html" class="nav-menu-link">Home</a></li>
-                <li class="nav-menu-item"><a href="../Pages/eventos.html" class="nav-menu-link">Eventos</a></li>
-                
-
-            </ul>
+              <div class="animate__animated animate__backInRight">
+                <ul class="nav-menu">
+                  <li class="nav-menu-item"><a href="../index.html" class="nav-menu-link">Home</a></li>
+                  <li class="nav-menu-item"><a href="../Pages/eventos.html" class="nav-menu-link">Eventos</a></li>
+                  
+  
+              </ul>
+              </div>
+            
         </nav>
     </div>
 
@@ -33,7 +41,7 @@
   </header>
 
  <!-- ASIDE -->
-  <aside class="sidebar"> <h3>Eventos destacados</h3>
+  <aside class="sidebar"> <button class="btn_eventos"><h3>Eventos destacados</h3></button> 
     <div class="sidebar_text"><p>Aquí podras disfrutar de las siguientes actividades</p></div>
     <div class="sidebar_img1"></div>
     <div class="sidebar_img2"></div>
