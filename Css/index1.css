@@ -192,7 +192,7 @@ body {
 
 /* ACERCA */
 
-#info {
+.info {
   padding: 35px;
   color: white;  
   background: rgb(30, 30, 30);
