@@ -314,9 +314,9 @@ body {
   
 }
 
-/* Contacto */
+/* Contacto/ lo estoy usando desde translated.css via sass */
 
-.titulo_contacto {
+/* .titulo_contacto {
   text-align: center;
   background-color: rgb(30, 30,30);
   color: whitesmoke;
@@ -342,7 +342,7 @@ body {
   text-align: center;
   cursor: pointer;
   padding: 20px;
-}
+} */
 
 /* Formulario */
 .form_final {
