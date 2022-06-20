@@ -1,0 +1,80 @@
+/* GRID SECCION */
+
+.grid-container > * {
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+  }
+  
+  .header {
+    grid-area: header;
+    background-color: rgb(17, 17, 17);
+    padding: 20px;
+    height: 200px;
+  }
+  
+  .navbar {
+    grid-area: navbar;
+    
+  }
+  
+  
+  .sidebar {
+    grid-area: sidebar;
+    
+  }
+  
+  .main {
+    grid-area: main;
+   
+  }
+  
+  .footer {
+    grid-area: footer;
+    
+  }
+  
+  .grid-container {
+    display: grid;
+    gap: 10px;
+    grid-template:
+      "header"  170px
+      /* "navbar"  50px */
+      "main"    auto
+      "sidebar" auto /* ACA CAMBIO EL LARGO DE SIDEBARD */
+      "footer"  100px;
+  }
+  
+  @media (min-width: 600px) {
+    .grid-container {
+      /* grid-template-columns: 200px auto;
+      grid-template-rows: 100px 50px auto 100px;
+      grid-template-areas: 
+      "header  header"
+      "navbar  navbar"
+      "sidebar main"
+      "footer  footer"; */
+  
+      
+  
+      grid-template:
+        "header  header" 180px
+       /*  "navbar  navbar" 50px */
+        "sidebar main"   auto 
+        "footer  footer" 100px /
+        400px    auto;
+    }
+  }
+  
+  @media (min-width: 900px) {
+    .grid-container {
+      grid-template:
+        "header  header header"  auto
+        " main   sidebar" auto
+        "footer  footer footer"  100px /
+        200px    auto   200px;
+    }
+  }
+  

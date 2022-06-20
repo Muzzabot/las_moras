@@ -1,0 +1,24 @@
+/* HOME */
+
+.main_home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height:80vh;
+    background-image:url(../Img/Morasprincipal.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: auto;
+   
+    }
+  
+    .main_title {
+      display: inline;
+      color: rgb(119, 11, 11);
+      text-shadow: 1.5px 1.5px 2px black;
+  }
+
+ 
+  

@@ -1,0 +1,106 @@
+/* MAIN EVENTOS*/
+
+.main {
+    background-color: rgb(30, 30, 30);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .comida_img {
+    background-image: url(../Img/comida_img.jpg);
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .comida_img:hover {
+    transform: scale(1.01,1.01) ;
+    transition: all 0.3s linear;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+    cursor: pointer;
+  }
+  
+  .comida_text {
+    color: white;
+    margin: 20px;
+  }
+  
+  .btn_eventos { 
+    font-family: "Public Sans", sans-serif;
+    font-size: 1.2rem;
+    margin: 1rem;
+    color: white;
+    /* background: rgb(245, 67, 67) ; */
+    border-radius: 6px;
+    cursor: pointer;
+    background-image: linear-gradient(to right, rgb(245, 67, 67) 50%,rgb(17, 17, 17) 50%);
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: left;
+    transition: background-position .3s ease;
+  } 
+  .btn_eventos:hover { 
+    
+    background-position: right;
+    transform: scale(1.1,1.1);
+   
+  } 
+  
+  /* SIDEBAR */
+  
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(30, 30, 30);
+    color: white;
+  }
+  
+  .sidebar_text {
+    color: white;
+    margin: 20px;
+  }
+  
+  .sidebar_img1 {
+    background-image: url(../Img/recreativ_img1.jpg);
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+    
+  }
+  
+  .sidebar_img1:hover {
+    transform: scale(1.2,1.2) ;
+    transition: all 0.3s linear;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+    cursor: pointer;
+  }
+  
+  .sidebar_img2 {
+    background-image: url(../Img/recreativ_img2.jpg);
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+  }
+  
+  .sidebar_img2:hover {
+    transform: scale(1.2,1.2) ;
+    transition: all 0.3s linear;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+    cursor: pointer;
+  }
+
+  
+
+  .footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(236, 56, 56);
+    padding: 10px;
+    align-items: center;
+    
+  }

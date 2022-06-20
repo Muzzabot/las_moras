@@ -1,13 +1,13 @@
 /* variables/ estilos */
-@import url("https://fonts.googleapis.com/css2?family=Public+Sans&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Public+Sans&display=swap");
 body {
   font-family: "Public Sans", sans-serif;
   font-size: 1.2rem;
   min-height: 100%;
-  background-color: #1e1e1e; }
+  background-color: #1e1e1e; } */
 
 /* Header */
-.navbar {
+/* .navbar {
   display: flex;
   justify-content: space-between;
   background-color: #111111; }
@@ -58,7 +58,7 @@ body {
     font-size: 15px; } }
 
 /* Aplicando sass a seccion Contacto */
-.titulo_contacto {
+/* .titulo_contacto {
   text-align: center;
   background-color: #1e1e1e;
   color: whitesmoke;
@@ -80,12 +80,77 @@ body {
   margin: 100px;
   text-align: center;
   cursor: pointer;
-  padding: 20px; }
+  padding: 20px; } */ 
 
 /* Footer */
-.footer {
+/* .footer {
   display: flex;
   justify-content: center;
   background-color: #ec3838;
   padding: 10px;
-  align-items: center; }
+  align-items: center; } */
+
+/* mediaqueries */
+/* @media (max-width: 900px) {
+  .contacto_cont {
+    display: flex;
+    flex-direction: column; }
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    background-color: #111111;
+    height: auto; }
+  .header {
+    height: 170px;
+    padding: 20px; } } */
+
+/* mixins */
+/* .mixins_area {
+  text-align: center;
+  background-color: #1e1e1e;
+  color: whitesmoke;
+  border: 1px;
+  padding: 50px; }
+
+.cuadrados {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 20px;
+  box-sizing: border-box; }
+
+.cuadrado1 {
+  background-color: #f54343;
+  width: 400px;
+  height: 100px;
+  margin-top: 5px;
+  padding: 10px;
+  margin: 100px;
+  cursor: pointer;
+  text-align: center; }
+
+.cuadrado2 {
+  background-color: #ec3838;
+  width: 400px;
+  height: 100px;
+  margin-top: 5px;
+  padding: 10px;
+  margin: 100px;
+  cursor: pointer;
+  text-align: center; }
+
+.cuadrado3 {
+  background-color: #b82424;
+  width: 400px;
+  height: 100px;
+  margin-top: 5px;
+  padding: 10px;
+  margin: 100px;
+  cursor: pointer;
+  text-align: center; }
+
+   */

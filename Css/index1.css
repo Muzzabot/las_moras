@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Public+Sans&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Public+Sans&display=swap");
 
 * {
   box-sizing: border-box;
@@ -57,15 +57,15 @@ body {
   display: grid;
   gap: 10px;
   grid-template:
-    "header"  170px
+    "header"  170px */
     /* "navbar"  50px */
-    "main"    auto
+   /*  "main"    auto
     "sidebar" auto /* ACA CAMBIO EL LARGO DE SIDEBARD */
-    "footer"  100px;
-}
+   /*  "footer"  100px;  */
+/* }
 
 @media (min-width: 600px) {
-  .grid-container {
+  .grid-container { */
     /* grid-template-columns: 200px auto;
     grid-template-rows: 100px 50px auto 100px;
     grid-template-areas: 
@@ -76,16 +76,16 @@ body {
 
     
 
-    grid-template:
-      "header  header" 180px
+  /*   grid-template:
+      "header  header" 180px */
      /*  "navbar  navbar" 50px */
-      "sidebar main"   auto 
+ /*      "sidebar main"   auto 
       "footer  footer" 100px /
       400px    auto;
   }
-}
+} */
 
-@media (min-width: 900px) {
+/* @media (min-width: 900px) {
   .grid-container {
     grid-template:
       "header  header header"  auto
@@ -93,11 +93,11 @@ body {
       "footer  footer footer"  100px /
       200px    auto   200px;
   }
-}
+} */
 
 /* HEADER */
 
-.navbar {
+/* .navbar {
     display: flex;
     justify-content: space-between;
     background-color: rgb(17, 17, 17);
@@ -170,11 +170,11 @@ body {
 
 }
 
-}
+} */
 
 /* MAIN HOME */
 
-.main_home {
+/* .main_home {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -192,24 +192,24 @@ body {
     display: inline;
     color: rgb(119, 11, 11);
     text-shadow: 1.5px 1.5px 2px black;
-}
+} */
 
 /* ACERCA */
 
-.info {
+/* .info {
   padding: 35px;
   color: white;  
   background: rgb(30, 30, 30);
   text-align: center;
   width: auto;
   }
-
+ */
 
 
 
 /* MAIN EVENTOS*/
 
-.main {
+/* .main {
   background-color: rgb(30, 30, 30);
   display: flex;
   flex-direction: column;
@@ -239,9 +239,9 @@ body {
   font-family: "Public Sans", sans-serif;
   font-size: 1.2rem;
   margin: 1rem;
-  color: white;
+  color: white; */
   /* background: rgb(245, 67, 67) ; */
-  border-radius: 6px;
+  /* border-radius: 6px;
   cursor: pointer;
   background-image: linear-gradient(to right, rgb(245, 67, 67) 50%,rgb(17, 17, 17) 50%);
   background-size: 200%;
@@ -255,10 +255,10 @@ body {
   transform: scale(1.1,1.1);
  
 } 
-
+ */
 /* SIDEBAR */
 
-.sidebar {
+/* .sidebar {
   display: flex;
   flex-direction: column;
   background-color: rgb(30, 30, 30);
@@ -301,18 +301,18 @@ body {
   border-radius: 6px;
   box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
   cursor: pointer;
-}
+} */
 
 /* Footer */
 
-.footer{
+/* .footer{
   display: flex;
   justify-content: center;
   background-color: rgb(236, 56, 56);
   padding: 10px;
   align-items: center;
   
-}
+} */
 
 /* Contacto/ lo estoy usando desde translated.css via sass */
 
@@ -345,7 +345,34 @@ body {
 } */
 
 /* Formulario */
-.form_final {
+/* mapa del sitio */
+
+/* .map-site {
+  color: whitesmoke;
+  display: flex;
+ justify-content: center;
+ border-radius: 3px;
+
+}
+
+.map-site-home {
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.map-site-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+} */
+
+/* Formulario de contacto */
+
+/* .form_final {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -377,6 +404,6 @@ body {
 }
 
 
-}
+} */
 
 

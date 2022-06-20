@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    height: 100%;
+  }
+  
+  body {
+    font-family: "Public Sans", sans-serif;
+    font-size: 1.2rem;
+    min-height: 100%;
+    background-color: rgb(245, 67, 67);
+  }
+
+  @media(max-width: 900px) {
+    .contacto_cont {
+      display: flex;
+      flex-direction: column;
+    }
+    .navbar {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      text-align: center;
+      align-items: center;
+      background-color: rgb(17, 17, 17);
+      height: auto;
+      
+  }
+  
+  .header {
+    height: 170px;
+    padding: 20px;
+  }
+  
+  
+  }

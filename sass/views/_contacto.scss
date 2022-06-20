@@ -1,0 +1,36 @@
+/* Contactos */
+
+
+.titulo_contacto {
+    text-align: center;
+    background-color: rgb(30, 30,30);
+    color: whitesmoke;
+    border: 1px;
+    padding: 50px;
+  }
+  
+  .contacto_cont {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(236, 56,56);
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .contacto_cont div{
+    background-color: rgb(184, 36, 36);
+    width: 400px;
+    height: 100px;
+    margin: 100px;
+    text-align: center;
+    cursor: pointer;
+    padding: 20px;
+  } 
+
+ 
+ .mapa {
+  
+  text-align: center;
+ }
