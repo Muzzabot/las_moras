@@ -15,26 +15,3 @@
     background-color: rgb(245, 67, 67);
   }
 
-  @media(max-width: 900px) {
-    .contacto_cont {
-      display: flex;
-      flex-direction: column;
-    }
-    .navbar {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      text-align: center;
-      align-items: center;
-      background-color: rgb(17, 17, 17);
-      height: auto;
-      
-  }
-  
-  .header {
-    height: 170px;
-    padding: 20px;
-  }
-  
-  
-  }

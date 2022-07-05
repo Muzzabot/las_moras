@@ -1,0 +1,31 @@
+
+/* SECCION INFO */
+
+.iconos {
+    padding: 0px 50px;
+    background: rgb(17, 17, 17);
+    color: whitesmoke;
+
+}
+
+.iconos-contenido {
+    padding: 50px 50px 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.iconos-contenido div{
+    flex: 1;
+    margin: 20px 0;
+    border-right: 2px solid #b82424;
+}
+
+.iconos-contenido div i {
+    color: #b82424;
+}
+
+.boton-iconos{
+    text-align: center;
+    padding-bottom: 50px;
+}

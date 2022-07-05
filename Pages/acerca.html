@@ -4,86 +4,124 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Centro gastronómico y deportivo 'Parrilla las Moras', futbol y comida. ">
-    <meta name="keywords" content="ASADO, FUTBOL, CARNE, DEPORTE">
-    <title>Las Moras | Acerca</title>
+    <meta name="keywords" content="PARRILLA, ASADO, FUTBOL, DEPORTE, GASTRONOMIA">
+    <meta name="description" content="Centro gastronómico y deportivo 'Parrilla las Moras', futbol y comida. "> 
+    <title>LAS MORAS | ACERCA</title>
     <link rel="stylesheet" href="../Css/index.css">
+    <script src="https://kit.fontawesome.com/27f2e6b4b5.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
-    <!-- HEADER -->
- <header class="header">
-    <div class="header_cont">
-        <nav class="navbar">
-            <a href="#" class="logo">Las Moras</a>
-           
-            <button class="nav-toggle" aria-label="Abrir menú">
-                <i class="fas fa-bars"></i>
-              </button>
-            <ul class="nav-menu">
-                <li class="nav-menu-item"><a href="../index.html" class="nav-menu-link">Home</a></li>
-                <li class="nav-menu-item"><a href="./eventos.html" class="nav-menu-link">Eventos</a></li>
-                <li class="nav-menu-item"><a href="./acerca.html" class="nav-menu-link">Acerca</a></li>
-                <li class="nav-menu-item"><a href="./contacto.html" class="nav-menu-link">Contacto</a></li>
-                
-  
-            </ul>
+
+    <header>
+        <h2 class="logo">Las Moras</h2>
+        <input type="checkbox" id="check">
+        <label for="check" class="mostrar-menu">
+            &#8801
+        </label>
+        <nav class="menu">
+            <a href="../index.html">Home</a>
+            <a href="./eventos.html">Eventos</a>
+            <a href="./nosotros.html">Sobre Nosotros</a>
+            <a href="./acerca.html">Acerca</a>
+            <label for="check" class="esconder-menu">
+                &#215
+            </label>
         </nav>
-    </div>
-  
-  </header>
+    </header>
 
-  <!-- SECCION ACERCA -->
+    <!-- SECCION ACERCA -->
 
-<section class="info">
-    <article>
-        <div class="info_text">
-             <h2>Acerca de</h2>
-             <p>Descubre la tradición del Asado, presentada de una manera distinta. Hemos creado una experiencia gastronómica por pasos y a puerta cerrada que explora nuevas formas de servir los cortes de carne típicos del Asado</p>
-             <p>Aqui podras disfrutar de eventos, festejos de cumpleaños, partidos de futbol. <br>Contamos con servicio de buffet, galeria acondicionada para el invierno y demas:</p>
+    <section class="acerca">
+        <div class="acerca-titulo">
+         <h2>HORARIO DE APERTURA</h2>
+         <p>Diariamente desde las 18hs</p>
+        </div>
+        
+        <div class="acerca-contenido">
+         <div class="acerca-cajas"> 
+             <h3>Ubicación</h3>
+         <p>Ruta 39 km12 <br>Capilla del Señor</p>
          </div>
-     </article>
-  
-  </section>
+         <div class="acerca-cajas">
+             <h3>Correo electrónico</h3>
+             <p>lasmorasfc@gmail.com</p>
+         </div>
+         <div class="acerca-cajas">
+             <h3>Número de teléfono</h3>
+             <p>1158249027</p>
+         </div>
+        </div>
+     </section>
 
-  <!-- GALERIA -->
+     <!-- MAPA -->
 
-  <div class="row">
-    <div class="photos">
-        <div class="photos_item"><img src="../Img/photo1.png" alt="photo 1"></div>
-        <div class="photos_item"><img src="../Img/photo2.png" alt="photo 2"></div>
-        <div class="photos_item"><img src="../Img/photo3.png" alt="photo 3"></div>
-        <div class="photos_item"><img src="../Img/photo4.png" alt="photo 4"></div>
-        <div class="photos_item"><img src="../Img/photo5.png" alt="photo 5"></div>
-        <div class="photos_item"><img src="../Img/photo6.png" alt="photo 6"></div>
-        <div class="photos_item"><img src="../Img/photo7.png" alt="photo 7"></div>
-        <div class="photos_item"><img src="../Img/photo8.png" alt="photo 8"></div>
-        <!-- <div class="photos_item"><img src="../Img/photo9.png" alt="photo 9"></div> -->
+      <!-- Como llegar -->
+  <div class="mapa">
+    <h2>Aprende como como llegar</h2>
+    <div class="mapa-item">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3295.9870921781594!2d-59.09022390224629!3d-34.299873031978215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bb795f7a30aaa5%3A0x14aa125b8fbb21e9!2sLas%20Moras%2C%20centro%20recreativo%2C%20gastron%C3%B3mico%20y%20tur%C3%ADstico!5e0!3m2!1ses-419!2sar!4v1655758405997!5m2!1ses-419!2sar" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
   </div>
   
-  <!-- Footer de la pagina -->
+<!-- FORM CONTACTO -->
+
+
+<section class="contacto">
+  <div class="contacto-items">
+    <h2>COMUNICATE CON NOSOTROS</h2>
+    <p>Envianos tus dudas mediante el siguiente formulario</p>
+
+    <form action="./formulario.html" method="post">
+       
+        <input type="text" name="nombre" placeholder="Nombre y Apellido" required>
+
+       
+        <input type="email" name="email" placeholder="Email" required >
+        
+       <!--  <textarea name="" id="" cols="30" rows="10"></textarea> -->
+        <input type="reset" value="Limpiar formulario">
+        <input type="submit" value="Enviar formulario">
+
+
+    </form>
+  </div>
+</section>
+
+
+  <!-- FOOTER -->
+
   
-  <footer class="footer">
-    <section class="titulo_eventos">
-      <h2>COMUNICATE CON NOSOTROS</h2>
-      <p>Envianos tus dudas mediante el siguiente formulario</p>
-  
-      <form action="./formulario.html" method="post">
-         
-          <input type="text" name="nombre" placeholder="Nombre y Apellido" required>
-  
-         
-          <input type="email" name="email" placeholder="Email" required >
-          
-         <!--  <textarea name="" id="" cols="30" rows="10"></textarea> -->
-          <input type="reset" value="Limpiar formulario">
-          <input type="submit" value="Enviar formulario">
-  
-  
-      </form>
-  </section>
+<footer class="pie-pagina">
+    <div class="grupo-1">
+      <div class="box">
+        <figure>
+          <a href="#">
+            <img src="../Img/MorasLogopng.png" alt="Logo de la pagina">
+          </a>
+        </figure>
+      </div>
+      <div class="box">
+        <h2>SOBRE NOSOTROS</h2>
+        <p>En Las Moras podras apreciar de un rico corte de carne con la posibilidad de disfrutar eventos deportivos.</p>
+        <p>Aqui podras acceder a nuestros servicios: Eventos privados, festejos de cumpleaños, canchas de futbol y de nuestro quincho.</p>
+      </div>
+      <div class="box">
+        <h2>SIGUENOS</h2>
+        <div class="redes-sociales">
+          <a href="https://www.facebook.com/Las-Moras-Canchas-de-Futbol-104204141529881" class="fa fa-facebook"></a>
+          <a href="https://www.instagram.com/lasmoras.exaltaciondelacruz/" class="fa fa-instagram"></a>
+          <a href="https://api.whatsapp.com/send/?phone=541137305513&text&type=phone_number&app_absent=0" class="fa fa-whatsapp"></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="grupo-2">
+      <small>&copy; 2022 <b>Muzza</b> - Todos los Derechos Reservados</small>
+
+    </div>
   </footer>
-  
+
 
 </body>
 </html>

@@ -1,20 +1,24 @@
 /* Externos */
+
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans&display=swap");
+
 /* Misc */
 @import './misc/variables';
-@import './misc/animations';
+
 @import './misc/normalize';
 
-/* partials */
+/* Partials */
 @import './partials/footer';
 @import './partials/header';
 
-/* Pages */
-@import './views/grid';
+/* PAGES */
+
 @import './views/acerca';
-@import './views/contacto';
 @import './views/eventos';
-@import './views/formulario';
+@import './views/galeria_comida';
+@import './views/galeria_deporte';
 @import './views/home';
-@import './views/mapsite'
+@import './views/info';
+@import './views/nosotros';
+@import './partials/responsive';
 

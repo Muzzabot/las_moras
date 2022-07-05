@@ -1,76 +1,48 @@
-/* HEADER DE LA PAGINA */
+/* HEADER */
 
-.navbar {
+header{
+    height: 100px;
+    background: rgb(17, 17,17);
+    padding: 0 50px;
+    color: white;
     display: flex;
     justify-content: space-between;
-    background-color: rgb(17, 17, 17);
-    
+    align-items: center;
 }
 
 .logo {
-    font-size: 25px;
-    font-weight: bold;
-    padding: 0 40px;
-    line-height: 80px;
-    color: white;
-    width: max-content;
     text-transform: uppercase;
-    
-    
+    font-weight: 200;
 }
 
-.nav-menu {
-    display: flex;
-    margin-right: 40px;
-    list-style: none;
-    
-}
-
-.nav-menu-item {
-    font-size: 18px;
-    margin: 0 10px;
-    line-height: 80px;
-     text-transform: uppercase;
-     width: max-content;
-
-}
-
-.nav-menu-link {
-    padding: 8px 12px;
-    border-radius: 3px;
+.menu a{
     color: white;
-
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 10px;
+    transition: 0.4s;
 }
 
-.nav-menu-link:hover {
-    background-color: #034574;
-    transition: 0.5s;
-    
-}
-
-.nav-toggle {
-    color: white;
-    background: none;
-    border: none;
+.mostrar-menu,
+.esconder-menu{
     font-size: 30px;
-    padding: 0 20px;
-    line-height: 60px;
+    cursor: pointer;
     display: none;
+    transition: 0.4s;
 }
 
-@media (max-width: 600px) {
-
-  .logo {
-    font-size: 20px;
-    ;
-    
-    
+.mostrar-menu {
+    order: 1;
 }
 
-.nav-menu-item {
-  font-size: 15px;
-  
-
+.menu a:hover,
+.mostrar-menu:hover,
+.esconder-menu:hover{
+    color: whitesmoke;
+    background-color: #ec3838;
+    border-radius: 3px;
 }
 
+#check {
+    display: none;
 }
