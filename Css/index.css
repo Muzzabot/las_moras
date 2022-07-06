@@ -155,6 +155,11 @@ header {
 .mapa-item {
   padding: 20px; }
 
+/* formulario contacto */
+.contacto {
+  text-align: center;
+  padding: 20px; }
+
 /* SECCION EVENTOS */
 .eventos {
   padding: 50px 50px;
